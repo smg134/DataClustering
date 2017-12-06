@@ -5,6 +5,7 @@ function clusters() {
     }
     document.body.style.cusor = "progress";
     setTimeout(redirect, 3500);
+    return false;
 }
 
 function redirect() {
@@ -18,4 +19,5 @@ function redirect() {
     if (num == 8) window.location = "http://dataclustering2.azurewebsites.net/data/8.png";
     if (num == 9) window.location = "http://dataclustering2.azurewebsites.net/data/9.png";
     if (num == 10) window.location = "http://dataclustering2.azurewebsites.net/data/10.png";
+    return false;
 }
