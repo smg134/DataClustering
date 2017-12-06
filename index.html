@@ -3,11 +3,20 @@
   <head>
     <title>Big Data</title>
     <script type="text/javascript" src="javascript.js"></script>
+    <style>
+        html {
+            height: 100%;
+        }
+        body {
+            height: 100%;
+            cursor: default;
+        }
+    </style>
   </head>
   <body>
     <h3>Enter number of clusters (2-10)</h3><br>
     <form>
-      <input type="text" id="clusters" placeholder="Clusters">
+      <input type="text" id="number" placeholder="Clusters">
       <button onclick="return clusters()">Generate</button>
     </form>
     <p id="tag"></p>
