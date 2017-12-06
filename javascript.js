@@ -2,6 +2,7 @@ function clusters() {
     var num = document.getElementById("number").value;
     if (num < 2 || num > 10) {
         document.getElementById("tag").innerHTML = "Value must be between 2 and 10.";
+        return false;
     }
     document.body.style.cursor = "progress";
     setTimeout(redirect, 3500);
